@@ -10,19 +10,27 @@
 ## 2. Тематическое моделирование
 ### 2.1 LDA
 - Число тем: взято 15
-- [Визуализация LDA](http://localhost:63342/review-nlp/data/artifacts/lda_vis.html#topic=10&lambda=0.19&term=)
+- <a href="http://localhost:63342/review-nlp/data/artifacts/lda_vis.html#topic=10&lambda=0.19&term=" target="_blank" rel="noopener noreferrer">
+  Визуализация LDA
+</a>
 
 ### 2.2 BERTopic
 - Базовая модель эмбеддингов: `all-MiniLM-L6-v2`.
 - Кол-во тем выделено: 465.
-- [Визуализация BERTopic](http://localhost:63342/review-nlp/data/artifacts/bertopic_topics.html)
+- <a href="http://localhost:63342/review-nlp/data/artifacts/bertopic_topics.html" target="_blank" rel="noopener noreferrer">
+  Визуализация BERTopic
+</a>
+
 
 ## 3. Сентимент-анализ
 - Подход: эмбеддинги + Logistic Regression.
 - Метрики на hold-out: precision/recall/F1 по классам.
 
 ## 4. Дашборд
-- [Ссылка на дашборд](https://reviewanalysis-hfbeb4tx9jmuehonf4tgu9.streamlit.app/)
+- <a href="https://reviewanalysis-hfbeb4tx9jmuehonf4tgu9.streamlit.app/" target="_blank" rel="noopener noreferrer">
+  Интерактивный дашборд
+</a>
+
 - В дашборде представлены распределения по темам, данных и heatmap тема × сентимент для каждого из методов тематического моделирования.
 - Так же есть возможность протестировать свой отзыв.
 
@@ -31,8 +39,9 @@
 ### 5.1 LDA
 ![heatmap_lda.png](images/heatmap_lda.png)
 - Преобладающе негативными являются 5 и 10 тема.
-- Снизу пример из [визуализации](http://localhost:63342/review-nlp/data/artifacts/lda_vis.html#topic=10&lambda=0.19&term=) для темы 10.
-![lda_topic10.png](images/lda_topic10.png)
+- Снизу пример из <a href="http://localhost:63342/review-nlp/data/artifacts/lda_vis.html#topic=10&lambda=0.19&term=" target="_blank" rel="noopener noreferrer">
+  визуализации
+</a>
 - Здесь видно, что тема связана с военной темой, видимо тема, которая мало кого оставляет равнодушным.
 - 5 же тема похоже относится к оскаровским фильмам, где много и хороших отзывов, но и много недовольных тем, почему этот фильм выбрали на оскаре или чем он заслужил награду.
 - Также достаточно неоднозначная тема 7, связанная с фильмами про расизм.
@@ -42,7 +51,9 @@
 ### 5.2 BERTopic
 ![heatmap_bertopic.png](images/heatmap_bertopic.png)
 - Стоит отметить, что этим методом лучше выделяются определённые темы.
-- Всех их можно посмотреть на [визуализации](http://localhost:63342/review-nlp/data/artifacts/bertopic_topics.html)
+- Всех их можно посмотреть на <a href="http://localhost:63342/review-nlp/data/artifacts/bertopic_topics.html" target="_blank" rel="noopener noreferrer">
+  визуализации
+</a>
 - Положительными можно выделить темы про 
 5(детский дисней),6(романтика),10(фильмы про кунгфу),12(французские),13(фильмы адаптации игр)
 - Негативными же 0(сами по себе ужасные фильмы),7(киллеры и копы),8(фильмы адаптации книг),9(религиозные)
