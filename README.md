@@ -32,8 +32,8 @@ streamlit run app/streamlit_app.py
 
 ## Структура
 - `src/preprocess.py` — чистка, токенизация, лемматизация/стемминг, сохранение parquet.
-- `src/topic_modeling.py` — LDA на gensim и BERTopic; сохраняет темы, присвоения тем и интерактивы.
+- `src/topic_modeling.py` — LDA на gensim и BERTopic; сохраняет темы, присвоения тем и интерактивы ([Визуализация LDA](http://localhost:63342/review-nlp/data/artifacts/lda_vis.html#topic=10&lambda=0.19&term=) и [Визуализация BERTopic](http://localhost:63342/review-nlp/data/artifacts/bertopic_topics.html)).
 - `src/sentiment.py` — обучение сентимента: Logistic Regression на эмбеддингах `sentence-transformers` (быстро) или fine-tune DistilBERT (флаг `--finetune`).
-- `app/streamlit_app.py` — интерактивный дашборд.
+- `app/streamlit_app.py` — [Интерактивный дашборд](https://reviewanalysis-hfbeb4tx9jmuehonf4tgu9.streamlit.app/).
 - `report.md` — шаблон отчёта.
 
