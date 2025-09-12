@@ -10,12 +10,12 @@
 ## 2. Тематическое моделирование
 ### 2.1 LDA
 - Число тем: взято 15
-- [Визуализация LDA](data/artifacts/lda_vis.html)
+- [Визуализация LDA](http://localhost:63342/review-nlp/data/artifacts/lda_vis.html#topic=10&lambda=0.19&term=)
 
 ### 2.2 BERTopic
 - Базовая модель эмбеддингов: `all-MiniLM-L6-v2`.
 - Кол-во тем выделено: 465.
-- [Визуализация BERTopic](data/artifacts/bertopic_topics.html)
+- [Визуализация BERTopic](http://localhost:63342/review-nlp/data/artifacts/bertopic_topics.html)
 
 ## 3. Сентимент-анализ
 - Подход: эмбеддинги + Logistic Regression.
@@ -31,7 +31,7 @@
 ### 5.1 LDA
 ![heatmap_lda.png](images/heatmap_lda.png)
 - Преобладающе негативными являются 5 и 10 тема.
-- Снизу пример из [визуализации](data/artifacts/lda_vis.html) для темы 10.
+- Снизу пример из [визуализации](http://localhost:63342/review-nlp/data/artifacts/lda_vis.html#topic=10&lambda=0.19&term=) для темы 10.
 ![lda_topic10.png](images/lda_topic10.png)
 - Здесь видно, что тема связана с военной темой, видимо тема, которая мало кого оставляет равнодушным.
 - 5 же тема похоже относится к оскаровским фильмам, где много и хороших отзывов, но и много недовольных тем, почему этот фильм выбрали на оскаре или чем он заслужил награду.
@@ -42,7 +42,7 @@
 ### 5.2 BERTopic
 ![heatmap_bertopic.png](images/heatmap_bertopic.png)
 - Стоит отметить, что этим методом лучше выделяются определённые темы.
-- Всех их можно посмотреть на [визуализации](data/artifacts/bertopic_topics.html)
+- Всех их можно посмотреть на [визуализации](http://localhost:63342/review-nlp/data/artifacts/bertopic_topics.html)
 - Положительными можно выделить темы про 
 5(детский дисней),6(романтика),10(фильмы про кунгфу),12(французские),13(фильмы адаптации игр)
 - Негативными же 0(сами по себе ужасные фильмы),7(киллеры и копы),8(фильмы адаптации книг),9(религиозные)
