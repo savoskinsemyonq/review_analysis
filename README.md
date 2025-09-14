@@ -4,16 +4,14 @@
 ## Быстрый старт
 
 ```bash
-python -m venv .venv\Scripts\activate 
+python -m venv venv
 pip install -r requirements.txt
-python -m spacy download en_core_web_sm
 ```
 
 
 1) Загрузка IMDB датасета
 
 ```bash
-pip install datasets
 python src/download_imdb.py
 ```
 
