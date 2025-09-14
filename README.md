@@ -41,5 +41,5 @@ streamlit run app/streamlit_app.py
 - `app/streamlit_app.py` — <a href="https://reviewanalysis-hfbeb4tx9jmuehonf4tgu9.streamlit.app/" target="_blank" rel="noopener noreferrer">
   Интерактивный дашборд
 </a>.
-- `report.md` — шаблон отчёта.
+- `report.md` — [отчёт.](report.md)
 
