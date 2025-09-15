@@ -27,10 +27,8 @@
 - Метрики на hold-out: precision/recall/F1 по классам.
 
 ## 4. Дашборд
-- <a href="https://reviewanalysis-hfbeb4tx9jmuehonf4tgu9.streamlit.app/" target="_blank" rel="noopener noreferrer">
-  Интерактивный дашборд
-</a>
 
+- <a href="https://reviewanalysis-hfbeb4tx9jmuehonf4tgu9.streamlit.app/" target="_blank" rel="noopener noreferrer">Интерактивный дашборд</a> ([локально](http://localhost:8501))
 - В дашборде представлены распределения по темам, данных и heatmap тема × сентимент для каждого из методов тематического моделирования.
 - Так же есть возможность протестировать свой отзыв.
 

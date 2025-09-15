@@ -38,6 +38,6 @@ streamlit run app/streamlit_app.py
 - `src/sentiment.py` — обучение сентимента: Logistic Regression на эмбеддингах `sentence-transformers` (быстро) или fine-tune DistilBERT (флаг `--finetune`).
 - `app/streamlit_app.py` — <a href="https://reviewanalysis-hfbeb4tx9jmuehonf4tgu9.streamlit.app/" target="_blank" rel="noopener noreferrer">
   Интерактивный дашборд
-</a>.
+</a> ([локально](http://localhost:8501)).
 - `report.md` — [отчёт.](report.md)
 
